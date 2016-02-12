@@ -106,18 +106,19 @@ let methodParameters =
                     }
                 
                     if let photoDictionary = parseResult[Constants.FlickrResponseKeys.Photos] as? [String: AnyObject],
-                    photoArry = photoDictionary[Constants.FlickrResponseKeys.Photo] as? [[String:AnyObject]]
+                    photoArray = photoDictionary[Constants.FlickrResponseKeys.Photo] as? [[String:AnyObject]]
                     
                     {
 
                         
-                        let randomPhotoIndex = Int(arc4random_uniform(UInt32(photoArry.count)))
+                        let randomPhotoIndex = Int(arc4random_uniform(UInt32(photoArray.count)))
                         
-                        let photoDictionary = photoArry[randomPhotoIndex] as? [String:AnyObject]
+                        let photoDictionary = photoArray[randomPhotoIndex] as? [String:AnyObject]
                         
                         if let imageUrlString = photoDictionary![Constants.FlickrResponseKeys.MediumURL] as? String,
                         
                             let photoTitle = photoDictionary![Constants.FlickrResponseKeys.Title] as? String{
+                                
                                 
                                 
                                 let imageURL = NSURL(string: imageUrlString)
