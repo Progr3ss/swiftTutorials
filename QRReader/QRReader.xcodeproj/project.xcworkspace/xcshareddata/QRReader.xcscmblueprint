@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB67A53BD7075925FF9D302F228860CAF2FA859A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DB67A53BD7075925FF9D302F228860CAF2FA859A" : 0,
+    "C3C48A897CBA6F82F097DC828F5574EFDC0D0C64" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B0D0418-2C91-45D2-8A49-CCCD3BEE58E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DB67A53BD7075925FF9D302F228860CAF2FA859A" : "SwiftTutorials\/",
+    "C3C48A897CBA6F82F097DC828F5574EFDC0D0C64" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QRReader",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QRReader\/QRReader.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Progr3ss\/LearningIOSandSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3C48A897CBA6F82F097DC828F5574EFDC0D0C64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Progr3ss\/swiftTutorials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB67A53BD7075925FF9D302F228860CAF2FA859A"
+    }
+  ]
+}
