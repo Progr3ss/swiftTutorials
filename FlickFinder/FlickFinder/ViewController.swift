@@ -107,7 +107,7 @@ class ViewController: UIViewController {
             ]
             
             
-            
+           print("MryhofParameters \(displayImageFromFlickrBySearch(methodParameters))")
             
             displayImageFromFlickrBySearch(methodParameters)
         }
@@ -145,7 +145,7 @@ class ViewController: UIViewController {
         
         func displayError(error: String){
             print(error)
-            print("URL at time of error: \(methodParameters)")
+//            print("URL at time of error: \(methodParameters)")
             performUIUpdatesOnMain(){
                 self.setUIEnabled(true)
             }
@@ -282,6 +282,7 @@ class ViewController: UIViewController {
             components.queryItems!.append(queryItem)
         }
         
+        print("Componets \(components.URL)")
         return components.URL!
     }
 }

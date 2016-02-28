@@ -44,6 +44,7 @@
 			children = (
 				A9A3A2061BEBB443009BE8E1 /* FlickFinder */,
 				A9A3A2051BEBB443009BE8E1 /* Products */,
+				A9A3A21C1BEBB47E009BE8E1 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +64,6 @@
 				A9A3A2231BEBD15B009BE8E1 /* Constants.swift */,
 				A9A3A2191BEBB46B009BE8E1 /* GCDBlackBox.swift */,
 				A9A3A21B1BEBB478009BE8E1 /* Assets */,
-				A9A3A21C1BEBB47E009BE8E1 /* Supporting Files */,
 			);
 			path = FlickFinder;
 			sourceTree = "<group>";
@@ -84,6 +84,7 @@
 				A9A3A2131BEBB443009BE8E1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = FlickFinder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +311,7 @@
 				A9A3A2181BEBB443009BE8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

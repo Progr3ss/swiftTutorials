@@ -106,19 +106,27 @@ let methodParameters =
                     }
                 
                     if let photoDictionary = parseResult[Constants.FlickrResponseKeys.Photos] as? [String: AnyObject],
-                    photoArray = photoDictionary[Constants.FlickrResponseKeys.Photo] as? [[String:AnyObject]]
+                    photoArry = photoDictionary[Constants.FlickrResponseKeys.Photo] as? [[String:AnyObject]]
                     
                     {
+                        
+//                        print(" array \(photoArry)")
+//                        
+//                        if let title = photoDictionary["title"] as? String {
+//                            print("The title is \(title)")
+//                        }
 
+//                        
+                        let randomPhotoIndex = Int(arc4random_uniform(UInt32(photoArry.count)))
+                        print("randomPho \((randomPhotoIndex))" )
+//
+                        let photoDictionary = photoArry[randomPhotoIndex] as? [String:AnyObject]
                         
-                        let randomPhotoIndex = Int(arc4random_uniform(UInt32(photoArray.count)))
-                        
-                        let photoDictionary = photoArray[randomPhotoIndex] as? [String:AnyObject]
+                      
                         
                         if let imageUrlString = photoDictionary![Constants.FlickrResponseKeys.MediumURL] as? String,
                         
-                            let photoTitle = photoDictionary![Constants.FlickrResponseKeys.Title] as? String{
-                                
+                            let photoTitle = photoDictionary![Constants.FlickrResponseKeys.Title] as? String {
                                 
                                 
                                 let imageURL = NSURL(string: imageUrlString)
@@ -134,11 +142,9 @@ let methodParameters =
                                     
                                 }
                                 
-  
                         }
                         
                         
-                  
                         
                     }
             
@@ -148,7 +154,7 @@ let methodParameters =
                 }
                 
             }
-//        }
+
         task.resume()
         
         
