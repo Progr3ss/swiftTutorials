@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DB67A53BD7075925FF9D302F228860CAF2FA859A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DB67A53BD7075925FF9D302F228860CAF2FA859A" : 0,
+    "C3C48A897CBA6F82F097DC828F5574EFDC0D0C64" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8596EFAE-DD70-49C6-8C7A-18CB7DF2FD8F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DB67A53BD7075925FF9D302F228860CAF2FA859A" : "SwiftTutorials\/",
+    "C3C48A897CBA6F82F097DC828F5574EFDC0D0C64" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TwoDirectionScrolling",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TwoDirectionScrolling\/TwoDirectionScrolling.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Progr3ss\/LearningIOSandSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3C48A897CBA6F82F097DC828F5574EFDC0D0C64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Progr3ss\/swiftTutorials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DB67A53BD7075925FF9D302F228860CAF2FA859A"
+    }
+  ]
+}
